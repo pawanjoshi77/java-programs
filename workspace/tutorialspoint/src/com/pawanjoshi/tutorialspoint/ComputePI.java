@@ -28,7 +28,7 @@ public class ComputePI {
 			} else {
 				sum += 1.0/(term*2-1);
 			}
-			System.out.println("The value of PI is: " + sum);
+			System.out.println("The value of PI is: " + sum); // Sum value is incorrect for PI value
 		}
 		
 
