@@ -10,11 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
  <servlet>
- <servlet-name>HelloForm</servlet-name>
- <servlet-class>HelloForm</servlet-class>
- </servlet>
- <servlet-mapping>
- <servlet-name>HelloForm</servlet-name>
- <url-pattern>/HelloForm/*</url-pattern>
- </servlet-mapping>
+    <servlet-name>HelloForm</servlet-name>
+    <servlet-class>com.pawanjoshi.HelloForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloForm</servlet-name>
+    <url-pattern>/HelloForm</url-pattern>
+  </servlet-mapping>
 </web-app>

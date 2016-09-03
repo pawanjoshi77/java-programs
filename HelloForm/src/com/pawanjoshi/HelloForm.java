@@ -39,4 +39,7 @@ out.println(docType +
 "</ul>\n" +
 "</body></html>");
 }
+public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+	doGet(request, response);
+}
 }
